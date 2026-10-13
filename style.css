@@ -86,3 +86,22 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
+
+section {
+  margin-block: 2em;
+}
+
+section h2 {
+  color: var(--color-accent);
+  border-bottom: 1px solid oklch(54.728% 0.03821 68.302);
+  padding-bottom: 0.25em;
+}
+
+article header h3 {
+  margin-bottom: 0.25em;
+}
+
+article header p {
+  margin-top: 0;
+  color: oklch(54.728% 0.03821 68.302);
+}
