@@ -61,18 +61,15 @@ document.body.insertAdjacentHTML(
 
 let select = document.querySelector(".color-scheme select");
 
-// Apply a color scheme and keep the dropdown in sync
 function setColorScheme(colorScheme) {
   document.documentElement.style.setProperty("color-scheme", colorScheme);
   select.value = colorScheme;
 }
 
-// 4.5: on page load, reuse the saved choice if there is one
 if ("colorScheme" in localStorage) {
   setColorScheme(localStorage.colorScheme);
 }
 
-// 4.4: when the user picks a theme, apply it and save it
 select.addEventListener("input", function (event) {
   setColorScheme(event.target.value);
   localStorage.colorScheme = event.target.value;
