@@ -1,62 +1,74 @@
 [
   {
-    "title": "hi",
+    "title": "Spotify Track Popularity Prediction",
+    "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ullam eaque asperiores perferendis consectetur vero natus id ipsa rem dolore et voluptatibus autem nostrum cupiditate iste, necessitatibus odio ad voluptates."
+    "description": "Built a distributed ML pipeline in PySpark on the SDSC Expanse supercomputer, processing 256M+ records (189GB). Tuned a Random Forest model to RMSE 2.56 and R² 0.742 with a 4.39x speedup over a single-executor baseline."
   },
   {
-    "title": "Quod dolorem suscipit illo!",
+    "title": "PDF Invoice Extraction Pipeline",
+    "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Omnis dignissimos rerum, nostrum fugiat doloribus perspiciatis non cum, vel consequuntur aspernatur atque commodi vero, odio provident. Deserunt, dignissimos. Officiis minus eos possimus accusamus amet nam modi autem, ex nostrum!"
+    "description": "Built an end-to-end pipeline that turns PDF invoices from five vendors into structured JSON, using pdfplumber, per-vendor regex and table extraction, and a HuggingFace zero-shot classifier (bart-large-mnli)."
   },
   {
-    "title": "Recusandae totam vel rerum.",
+    "title": "Restaurant Cuisine Classification",
+    "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Veritatis inventore impedit, error tempore voluptatem blanditiis optio voluptate praesentium illum maxime vero cupiditate. Fuga excepturi, perferendis sequi unde veniam, illo fugiat tempore explicabo reiciendis molestias laboriosam, minus modi iste."
+    "description": "Built a TF-IDF and scikit-learn pipeline classifying restaurants into 10 cuisines, reaching a macro-F1 of 0.76 on imbalanced data after fixing a feature-scaling bug that had dropped the score to 0.11."
   },
   {
-    "title": "Veniam nemo a iste.",
+    "title": "Database Design and Automation",
+    "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Repellat eligendi voluptatibus, sint labore alias sed, obcaecati hic reprehenderit asperiores laudantium molestiae odit libero dolores iusto esse? Distinctio asperiores harum veniam cupiditate velit totam nulla in excepturi atque veritatis!"
+    "description": "Designed normalized MySQL schemas, automated workflows with stored procedures, and built a full MySQL database solution for an app prototype integrating SQL, Python, and Tableau (Meta Database Engineering Specialization)."
   },
   {
-    "title": "Corrupti ex perferendis vel!",
+    "title": "HydroBud",
+    "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Asperiores rem sint et blanditiis suscipit nostrum recusandae ducimus. Debitis, vitae ipsam accusamus molestiae explicabo aut obcaecati labore, eos reiciendis dolores in veniam qui, modi quibusdam minus laudantium autem harum!"
+    "description": "Led a cross-functional team of 5 to build an MVP hydroponic plant health monitoring system with Arduino, React, and Firestore in 3 months. Authored the PRD and ran the team on Kanban with 100% sprint completion."
   },
   {
-    "title": "Iste autem provident alias.",
+    "title": "Video Player Preview Page",
+    "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Voluptate veritatis fugiat voluptatem. Excepturi quis nisi commodi iusto hic expedita dolorem voluptatibus praesentium quaerat numquam, quidem harum totam accusamus! Ex aliquid, totam recusandae ea ullam accusantium soluta aspernatur adipisci?"
+    "description": "Worked with a 10+ engineer team at Cadent to build a video preview page. Evaluated 12 video players, set up an Apache Tomcat server to host the page, and implemented click events for ad playback with pop-up video previews."
   },
   {
-    "title": "Quam distinctio quos laboriosam.",
+    "title": "Serverless Backend Workflows",
+    "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Tempora nostrum laborum aliquid dolor saepe, quo rem esse in! Corporis itaque labore ut inventore error! In error, tempora temporibus minima maxime pariatur. Ipsum illum nihil consequatur dolorum nam dignissimos."
+    "description": "Designed and shipped 7 Python AWS Lambda functions at Opal powering core backend workflows, cutting DynamoDB/S3 sync processing time by 35%."
   },
   {
-    "title": "Numquam temporibus vel molestiae.",
+    "title": "Matching Algorithm Optimization",
+    "year": "2021",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Recusandae quos sunt dolore eos possimus quo atque laudantium nemo iusto perspiciatis tempora reiciendis veniam quasi, accusamus temporibus tempore a dicta itaque ratione numquam doloremque error magni necessitatibus eius. Accusamus."
+    "description": "Re-engineered the ANNOY matching algorithm at Opal, consolidating pipeline steps to cut runtime by 40%."
   },
   {
-    "title": "Adipisci eveniet molestiae ex?",
+    "title": "Account Features",
+    "year": "2021",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Maxime vel, pariatur totam corporis repellendus deleniti cumque praesentium saepe, voluptate ducimus facilis sunt voluptas fuga sed placeat tenetur nobis architecto, perferendis consequatur itaque repudiandae obcaecati. Beatae laboriosam cumque neque."
+    "description": "Implemented new account features at Opal, including profile liking, goal setting, and an Admin account type with unique access codes."
   },
   {
-    "title": "Expedita perferendis quos atque!",
+    "title": "Incomplete Profile Error Handling",
+    "year": "2021",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Natus praesentium esse laudantium, obcaecati illo, nemo assumenda ullam minus ipsum nostrum eum blanditiis nisi perferendis neque tempora possimus voluptatum nobis eos sit consequatur, excepturi officiis non id! Aliquid, dicta."
+    "description": "Established error handling for incomplete user profiles at Opal, preventing system crashes."
   },
   {
-    "title": "Quae fugiat eos placeat.",
+    "title": "Expungement Eligibility Parser",
+    "year": "2021",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Autem culpa, expedita fugiat architecto perspiciatis porro obcaecati iste, cum quaerat ratione hic cumque voluptas, harum veritatis. Aliquam, dolorum? Perferendis maxime laudantium commodi accusamus recusandae perspiciatis vel beatae molestiae fuga?"
+    "description": "Developed a Python parser for the Paper Prisons project at the SCU Frugal Innovation Hub, analyzing over 1 million records to determine expungement eligibility with 95% accuracy."
   },
   {
-    "title": "Molestias excepturi earum nesciunt.",
+    "title": "Clean Slate Audits and Research Visualizations",
+    "year": "2021",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Non nulla voluptas quisquam dolore. Odit molestias omnis nam, perferendis minima soluta id quas porro delectus nisi veritatis eum doloribus dolores voluptate. Nobis, in voluptatibus nam possimus velit ipsa natus."
+    "description": "Generated clean slate audits, statistical reports, and data visualizations for published research contributing to the academic paper \"America's Paper Prisons: The Second Chance Gap.\""
   }
 ]
