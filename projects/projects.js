@@ -56,6 +56,7 @@ function renderPieChart(projectsGiven) {
   });
 }
 
+
 function selectYear(year) {
   selectedYear = selectedYear === year ? null : year;
   update();
