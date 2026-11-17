@@ -1,4 +1,11 @@
 [
+    {
+    "title": "Bikewatching",
+    "year": "2026",
+    "image": "https://hetasj.github.io/portfolio/images/bikewatching.png",
+    "url": "https://hetasj.github.io/bikewatching/",
+    "description": "Interactive map of 260,000+ Bluebikes trips in Boston and Cambridge from March 2024, built with Mapbox and D3. Station circles scale with traffic, color shows arrivals versus departures, and a time slider filters trips by time of day."
+  },
   {
     "title": "Spotify Track Popularity Prediction",
     "year": "2026",
